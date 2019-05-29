@@ -103,3 +103,17 @@ h1 {
   right: 50px;
   font-size: 20px;
 }
+
+.indexLink a {
+  color: white;
+  animation: homePageDoor 0.7s linear infinite;
+}
+
+@keyframes homePageDoor {
+  from {
+    color: white;
+  }
+  to {
+    color: purple;
+  }
+}
